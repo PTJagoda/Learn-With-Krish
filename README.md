@@ -1,5 +1,6 @@
 # Learn-With-Krish
 Learn with Krishantha
+
 Empty block - Empty block is consisting of empty pair of curly braces. The purpose of empty block is to group together several statements into a unit.
 
 Static block – In here we use a static keyword and associate it to a block. This block we known as a static block. The code inside the static block is executed only once (In Main class we use 2 objects to call Test class but static block executes only once). There is no any specified way to call static block, it executes automatically when the class is loaded in memory.
