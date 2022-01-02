@@ -14,14 +14,13 @@ When we run the code. No matter what order we implement empty block, static bloc
 4)	Empty block, Constructor, Static block
 5)	Static block, Constructor, Empty block
 6)	Constructor, Static block, Empty block
+
 It gives output as 
 
 	Static block, Empty block, then Constructor
 
 Why Static block runs over other blocks?
-
-	It runs before the object is created. That’s why static block prints over other blocks. Static block runs without calling in main method.
+It runs before the object is created. That’s why static block prints over other blocks. Static block runs without calling in main method.
 
 Why empty block runs over the constructor?
-
-	Empty block run each time when object of the class is created. The Constructor called when instance of the class is created. At the time of calling constructor, memory for the object is allocated in the memory. That’s why empty block runs over the constructor.
+Empty block run each time when object of the class is created. The Constructor called when instance of the class is created. At the time of calling constructor, memory for the object is allocated in the memory. That’s why empty block runs over the constructor.
