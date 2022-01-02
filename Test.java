@@ -28,6 +28,7 @@ class Test{
 }
 
 /*
+Output:-
 D:\LP training\New folder>javac Test.java
 
 D:\LP training\New folder>java Test
