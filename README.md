@@ -20,7 +20,9 @@ It gives output as
 	Static block, Empty block, then Constructor
 
 Why Static block runs over other blocks?
+
 It runs before the object is created. That’s why static block prints over other blocks. Static block runs without calling in main method.
 
 Why empty block runs over the constructor?
+
 Empty block run each time when object of the class is created. The Constructor called when instance of the class is created. At the time of calling constructor, memory for the object is allocated in the memory. That’s why empty block runs over the constructor.
